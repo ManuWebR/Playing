@@ -1,0 +1,46 @@
+.card{
+    
+  margin-left: 10vh;
+  padding: 20px 10px 20px;
+  background-color: rgb(84, 188, 232);
+  border-radius: 4px;
+  width: 50vw;
+}
+  .table{
+    width: 50vw;
+    text-align: center;
+
+  }
+  .form {
+    
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  .tasks {
+   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+  }
+  .titulo{
+    color: rgb(49, 75, 243);
+  }
+  
+  .submit {
+    background: rgb(175, 74, 74);
+    border: none;
+    padding: 1rem 1.8rem;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 1rem 0;
+  }
+  button {
+    background: rgb(175, 74, 74);
+    border: none;
+    padding: 0.2rem 0.8rem;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 1rem 0;
+  }

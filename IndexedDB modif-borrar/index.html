@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>IndexedDB</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+  <body>
+    <div class="card">
+      <form id="formulario" class="form">
+       
+        <input type="text" name="tarea" id="area" placeholder="TAREA" required>
+        <select name="prioridad">
+          <option value="">Elige una prioridad</option>
+          <option value="baja">Baja</option>
+          <option value="normal">Normal</option>
+          <option value="alta">Alta</option>
+        </select>
+        <input type="submit" name="submit" class="submit" value="Añadir tarea">
+      </form>
+      <div class="tabla">
+        <table class="table">
+          <th  class="titulo">Tarea</th>
+          <th  class="titulo">Prioridad</th>
+          <th  class="titulo">Modificar</th>
+          <th  class="titulo">Borrar</th>
+        </table>
+        <div id="tasks" class="tasks"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
