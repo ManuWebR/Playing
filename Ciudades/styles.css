@@ -1,0 +1,9 @@
+body{
+    background-image: url("./img/backg.png");
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 150px;
+    height: auto;
+}
